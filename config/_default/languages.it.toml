@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "it"
+languageName = "Italiano"
+weight = 1
+title = "sdnworks.com"
+contentDir = 'content/it'
+
+[params]
+  displayName = "IT"
+  isoCode = "it"
+  rtl = false
+  dateFormat = "2 Gennaio 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "SDN Works - Alessandro Zanotti"
+  email = "alessandro@zanotti.io"
+  image = "img/Foto_profilo_centrata.png"
+  imageQuality = 96
+  # headline = "I'm only human"
+  # bio = "A little bit about you"
+  links = [
+    { email = "mailto:alessandro@zanotti.io" },
+    { github = "https://github.com/azanotti" },
+    { linkedin = "https://it.linkedin.com/in/alezanotti" }
+  ]

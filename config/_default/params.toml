@@ -1,0 +1,248 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://nunocoracao.github.io/blowfish/docs/configuration/#theme-parameters
+
+# The theme colour scheme to use. Valid values are blowfish (default), avocado,
+# ocean, fire and slate. Refer to the Colour Schemes section for more details.
+colorScheme = "slate"
+
+# The default theme appearance, either light or dark.
+defaultAppearance = "dark"
+
+# Whether the theme appearance automatically switches based upon the visitor’s
+# operating system preference. Set to false to force the site to always use the
+# defaultAppearance.
+autoSwitchAppearance = false
+
+# Whether site search is enabled. Set to true to enable search functionality.
+# Note that the search feature depends on the outputs.home setting in the site
+# configuration being set correctly.
+enableSearch = true
+
+# Whether copy-to-clipboard buttons are enabled for <code> blocks. The
+# highlight.noClasses parameter must be set to false for code copy to function
+# correctly. Read more about other configuration files below.
+enableCodeCopy = true
+
+# The relative path to the site logo file within the assets/ folder. The logo
+# file should be provided at 2x resolution and supports any image dimensions.
+# Disabled until I get a nice-enough looking logo. Also, figure out if this
+# option should be in this file or in languages.en.toml
+# logo =
+
+# The sections that should be displayed in the recent articles list. If not
+# provided the section with the greatest number of articles is used.
+# mainSections = ["section1", "section2"] robots = ""
+
+# String that indicates how robots should handle your site. If set, it will be
+# output in the page head. Refer to Google’s docs for valid values.
+# robots =
+
+[footer]
+  # Whether or not to show the copyright string in the site footer. Note that
+  # the string itself can be customised using the copyright parameter in the
+  # languages configuration.
+  showCopyright = true
+
+  # Whether or not to show the “powered by” theme attribution in the site
+  # footer. If you choose to disable this message, please consider attributing
+  # the theme somewhere else on your site (for example, on your about page).
+  showThemeAttribution = false
+
+  # Whether or not to show the appearance switcher in the site footer. The
+  # browser’s local storage is used to persist the visitor’s preference.
+  showAppearanceSwitcher = true
+
+  # When set to true the scroll to top arrow is displayed.
+  showScrollToTop = true
+
+[homepage]
+  # The layout of the homepage. Valid values are page, profile, hero, card,
+  # background, or custom. When set to custom, you must provide your own layout
+  # by creating a /layouts/partials/home/custom.html file. Refer to the Homepage
+  # Layout section for more details.
+  layout = "profile"
+
+  # Image to be used in hero and card layouts. Refer to the Homepage Layout
+  #section for more details.
+  # homepageImage = "IMAGE.jpg"
+
+  # Whether or not to display the recent articles list on the homepage.
+  showRecent = true
+
+  # How many articles to display if showRecent is true. If variable is set to
+  # 0 or if it isn’t defined the system will default to 5 articles.
+  showRecentItems = 5
+
+  # Wether or not to display a show more link at the end of your posts that
+  # takes the user to a predefined place.
+  showMoreLink = false
+
+  # The destination of the show more button.
+  showMoreLinkDest = "/thoughts"
+
+[article]
+  # Whether or not article dates are displayed.
+  showDate = true
+
+  # Whether or not article views are displayed. This requires firebase
+  #integrations to be enabled, look below.
+  # showViews = true
+
+  # Whether or not article likes are displayed. This requires firebase
+  # integrations to be enabled, look below.
+  # showLikes = true
+
+  # Whether or not the dates articles were updated are displayed.
+  showDateUpdated = true
+
+  # Whether the thumbnail image will be shown as a hero image within each
+  # article page.
+  showHero = false
+
+  # Style to display the hero image, valid options are: basic, big, background.
+  # heroStyle = "basic"
+
+  # Whether or not the author box is displayed in the article footer.
+  showAuthor = true
+
+  # Whether or not breadcrumbs are displayed in the article header.
+  showBreadcrumbs = true
+
+  # Whether or not the draft indicator is shown next to articles when site is
+  # built with --buildDrafts.
+  showDraftLabel = true
+
+  # Whether or not the link to edit the article content should be displayed.
+  showEdit = false
+
+  # When article.showEdit is active, the URL for the edit link.
+  # editURL = "https://github.com/username/repo/"
+
+  # When article.showEdit is active, whether or not the path to the current
+  # article should be appended to the URL set at article.editURL.
+
+  # Whether or not the series module will be displayed open by default or not.
+  editAppendPath = true
+
+  # Whether or not heading anchor links are displayed alongside headings within
+  # articles.
+  showHeadingAnchors = true
+
+  # Whether or not the next/previous article links are displayed in the
+  # article footer.
+  showPagination = true
+
+  # Whether or not to flip the direction of the next/previous article links.
+  invertPagination = false
+
+  # Whether or not article reading times are displayed.
+  showReadingTime = false
+
+  # Whether or not the table of contents is displayed on articles.
+  showTableOfContents = true
+
+  # Whether or not the taxonomies related to this article are displayed.
+  showTaxonomies = true
+
+  # Whether the authors taxonomies are are displayed in the article or list
+  # header. This requires the setup of multiple authors and the authors
+  # taxonomy. Check this page for more details on how to configure that feature.
+  showAuthorsBadges = false
+
+  # Whether or not article word counts are displayed.
+  showWordCount = false
+
+  # Whether or not the comments partial is included after the article footer.
+  showComments = false
+
+  # Which sharing links to display at the end of each article. When not
+  # provided, or set to false no links will be displayed.
+  sharingLinks = []
+
+[list]
+  # Whether or not breadcrumbs are displayed in the header on list pages.
+  showBreadcrumbs = false
+
+  # Whether or not the table of contents is displayed on list pages.
+  showTableOfContents = false
+
+  # Whether or not article summaries are displayed on list pages. If a summary
+  # is not provided in the front matter, one will be auto generated using the
+  # summaryLength parameter in the site configuration.
+  showSummary = false
+
+  # Whether or not each article is displayed as a card or as simple inline text.
+  showCards = false
+
+  # Whether or not articles are grouped by year on list pages.
+  groupByYear = true
+
+[sitemap]
+  # Kinds of content that should be excluded from the generated /sitemap.xml
+  # file. Refer to the Hugo docs for acceptable values.
+  excludedKinds = []
+
+[taxonomy]
+  # Whether or not the number of articles within a taxonomy term is displayed on
+  # the taxonomy listing.
+  showTermCount = true
+
+[firebase]
+  # Firebase apiKey, required to integrate against Firebase. Check this page for
+  # a guide on how to integrate Firebase into Blowfish
+  # apiKey = "XXXXXX"
+
+  # Firebase authDomain, required to integrate against Firebase. Check this
+  # page for a guide on how to integrate Firebase into Blowfish
+  # authDomain = "XXXXXX"
+
+  # Firebase projectId, required to integrate against Firebase. Check this page
+  # for a guide on how to integrate Firebase into Blowfish
+  # projectId = "XXXXXX"
+
+  # Firebase storageBucket, required to integrate against Firebase. Check this
+  # page for a guide on how to integrate Firebase into Blowfish
+  # storageBucket = "XXXXXX"
+
+  # Firebase messagingSenderId, required to integrate against Firebase. Check
+  # this page for a guide on how to integrate Firebase into Blowfish
+  # messagingSenderId = "XXXXXX"
+
+  # Firebase appId, required to integrate against Firebase. Check this page
+  #for a guide on how to integrate Firebase into Blowfish
+  # appId = "XXXXXX"
+
+  # Firebase measurementId, required to integrate against Firebase. Check this
+  #page for a guide on how to integrate Firebase into Blowfish
+  #measurementId = "XXXXXX"
+
+[fathomAnalytics]
+  # The site code generated by Fathom Analytics for the website. Refer to the
+  # Analytics docs for more details. site = "ABC12345"
+
+  # If using a custom domain
+  # with Fathom Analytics, provide it here to serve script.js from the custom
+  # domain.
+  # domain = "llama.yoursite.com"
+
+[verification]
+
+  # The site verification string provided by Google to be included in the site
+  # metadata.
+  # google = ""
+
+  # The site verification string provided by Bing to be included in the site
+  # metadata.
+  # bing = ""
+
+  # The site verification string provided by Pinterest to be included in the
+  # site metadata.
+  # pinterest = ""
+
+  # The site verification string provided by Yandex to be included in the site
+  # metadata.
+  # yandex = ""

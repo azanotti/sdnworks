@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo1 on sdnworks.com</title>
+    <link>http://localhost:1313/tags/demo1/</link>
+    <description>Recent content in Demo1 on sdnworks.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</managingEditor>
+    <webMaster>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</webMaster>
+    <copyright>© 2025 SDN Works - Alessandro Zanotti</copyright>
+    <lastBuildDate>Sun, 14 Sep 2025 21:05:35 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/demo1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Demo</title>
+      <link>http://localhost:1313/posts/demo/</link>
+      <pubDate>Sun, 14 Sep 2025 21:05:35 +0200</pubDate>
+      <author>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</author>
+      <guid>http://localhost:1313/posts/demo/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

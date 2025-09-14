@@ -1,0 +1,21 @@
+# config/_default/menus.it.toml
+
+[[main]]
+  name = "Articoli"
+  pageRef = "articoli"
+  weight = 10
+
+[[main]]
+  name = "Su di me"
+  pageRef = "informazioni"
+  weight = 20
+
+ [[footer]]
+   name = "Tag"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "Categorie"
+   pageRef = "categories"
+   weight = 20

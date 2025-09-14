@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Upgrade on sdnworks.com</title>
+    <link>http://localhost:1313/tags/upgrade/</link>
+    <description>Recent content in Upgrade on sdnworks.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</managingEditor>
+    <webMaster>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</webMaster>
+    <copyright>© 2025 SDN Works - Alessandro Zanotti</copyright>
+    <lastBuildDate>Sun, 14 Sep 2025 21:16:27 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Reset VCF domain upgrade target version</title>
+      <link>http://localhost:1313/posts/vcf/resetupgradetarget/</link>
+      <pubDate>Sun, 14 Sep 2025 21:16:27 +0200</pubDate>
+      <author>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</author>
+      <guid>http://localhost:1313/posts/vcf/resetupgradetarget/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

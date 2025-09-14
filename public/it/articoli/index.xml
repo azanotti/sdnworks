@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articolis on sdnworks.com</title>
+    <link>http://localhost:1313/it/articoli/</link>
+    <description>Recent content in Articolis on sdnworks.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <managingEditor>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</managingEditor>
+    <webMaster>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</webMaster>
+    <copyright>© 2025 SDN Works - Alessandro Zanotti</copyright>
+    <lastBuildDate>Sun, 14 Sep 2025 21:56:32 +0200</lastBuildDate><atom:link href="http://localhost:1313/it/articoli/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Reset versione target upgrade VCF</title>
+      <link>http://localhost:1313/it/articoli/vcf/resetupgradetarget/</link>
+      <pubDate>Sun, 14 Sep 2025 21:56:32 +0200</pubDate>
+      <author>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</author>
+      <guid>http://localhost:1313/it/articoli/vcf/resetupgradetarget/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Informativa sulla privacy</title>
+      <link>http://localhost:1313/it/articoli/privacy/</link>
+      <pubDate>Sun, 14 Sep 2025 21:50:35 +0200</pubDate>
+      <author>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</author>
+      <guid>http://localhost:1313/it/articoli/privacy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Informazioni</title>
+      <link>http://localhost:1313/it/articoli/informazioni/</link>
+      <pubDate>Sun, 14 Sep 2025 21:47:43 +0200</pubDate>
+      <author>alessandro@zanotti.io (SDN Works - Alessandro Zanotti)</author>
+      <guid>http://localhost:1313/it/articoli/informazioni/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
