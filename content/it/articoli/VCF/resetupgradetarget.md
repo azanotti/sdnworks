@@ -1,6 +1,6 @@
 +++
 date = '2025-09-14T21:56:32+02:00'
-draft = true
+draft = false
 title = 'Reset versione target upgrade VCF'
 categories = ['VCF']
 tags = ['operazioni', 'aggiornamento', 'SDDC Manager']

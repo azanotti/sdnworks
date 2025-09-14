@@ -1,6 +1,6 @@
 +++
 date = '2025-09-14T19:17:11+02:00'
-draft = true
+draft = false
 title = 'Privacy Policy'
 categories = "Privacy"
 +++

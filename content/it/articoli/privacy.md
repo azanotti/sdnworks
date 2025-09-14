@@ -1,6 +1,6 @@
 +++
 date = '2025-09-14T21:50:35+02:00'
-draft = true
+draft = false
 title = 'Informativa sulla privacy'
 +++
 

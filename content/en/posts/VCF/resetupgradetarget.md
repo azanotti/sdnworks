@@ -1,6 +1,6 @@
 +++
 date = '2025-09-14T21:16:27+02:00'
-draft = true
+draft = false
 title = 'Reset VCF domain upgrade target version'
 categories = ['VCF']
 tags = ['operations', 'upgrade', 'SDDC Manager']
