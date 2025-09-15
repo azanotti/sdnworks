@@ -26,10 +26,10 @@ Quindi, ecco il mio piano:
 E sì — ha funzionato perfettamente. Di seguito spiego i passaggi eseguiti.
 
 ## Passo-Passo: Aggiornare la Versione ESXi nel DB di SDDC Manager
-{{< box warning >}}
-DISCLAIMER: Questo approccio è non supportato e potenzialmente rischioso. Usalo a tuo rischio e pericolo, e assicurati sempre di creare backup.
-Qualsiasi modifica al database di SDDC Manager può invalidare gli accordi di supporto.
-{{< /box >}}
+
+⚠️ DISCLAIMER: Questo approccio è non supportato e potenzialmente rischioso. Usalo a tuo rischio e pericolo, e assicurati sempre di creare backup.
+⚠️ Qualsiasi modifica al database di SDDC Manager può invalidare gli accordi di supporto.
+
 
 1. Crea uno snapshot della VM SDDC Manager (senza memoria!).
 2. Connettiti a SDDC Manager e passa all’utente root usando `su -`.
