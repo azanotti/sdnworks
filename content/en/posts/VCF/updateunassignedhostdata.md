@@ -1,7 +1,9 @@
 +++
 date = '2025-09-15T14:41:26+02:00'
-draft = true
+draft = false
 title = 'Update unassigned host data'
+categories = ['VCF']
+tags = ['operations', 'commissioning', 'SDDC Manager']
 +++
 
 A few months ago, I faced an interesting challenge involving VMware Cloud Foundation (VCF) and SDDC Manager. A customer had commissioned several ESXi hosts into SDDC Manager, only to later realize that their ESXi versions were lower than the version of the domain they were intended to join.
