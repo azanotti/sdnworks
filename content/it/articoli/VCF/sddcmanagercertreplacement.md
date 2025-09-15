@@ -2,6 +2,8 @@
 date = '2025-09-15T11:17:07+02:00'
 draft = false
 title = 'Sostituzione del certificato SDDC Manager fallisce senza errore'
+categories = ['VCF']
+tags = ['operazioni', 'certificati', 'SDDC Manager']
 +++
 ## Introduzione
 
