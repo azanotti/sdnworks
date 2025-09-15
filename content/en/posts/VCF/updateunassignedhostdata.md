@@ -27,10 +27,10 @@ So, here was my plan:
 And yes — it worked perfectly. Here's a breakdown of the process I followed.
 
 ## Step-by-Step: Update ESXi Host Version in SDDC Manager DB
-
-> DISCLAIMER: This approach is unsupported and potentially risky. Use it at your own discretion, and always create backups. 
-> Any modifications to the SDDC Manager database can void support agreements.
-{.warning}
+{{< box warning >}}
+DISCLAIMER: This approach is unsupported and potentially risky. Use it at your own discretion, and always create backups. 
+Any modifications to the SDDC Manager database can void support agreements.
+{{< /box >}}
 
 1. Snapshot the SDDC Manager VM (without memory!)
 2. Connect to SDDC Manager and escalate to root user using `su -`
