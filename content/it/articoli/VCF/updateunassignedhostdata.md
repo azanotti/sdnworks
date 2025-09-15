@@ -2,6 +2,8 @@
 date = '2025-09-15T14:41:35+02:00'
 draft = false
 title = 'Modifica dati host unassigned'
+categories = ['VCF']
+tags = ['operazioni', 'commissioning', 'SDDC Manager']
 +++
 
 Qualche mese fa, mi sono trovato ad affrontare una sfida interessante con VMware Cloud Foundation (VCF) e SDDC Manager. 
@@ -28,8 +30,7 @@ E sì — ha funzionato perfettamente. Di seguito spiego i passaggi eseguiti.
 ## Passo-Passo: Aggiornare la Versione ESXi nel DB di SDDC Manager
 
 ⚠️ DISCLAIMER: Questo approccio è non supportato e potenzialmente rischioso. Usalo a tuo rischio e pericolo, e assicurati sempre di creare backup.
-⚠️ Qualsiasi modifica al database di SDDC Manager può invalidare gli accordi di supporto.
-
+Qualsiasi modifica al database di SDDC Manager può invalidare gli accordi di supporto.
 
 1. Crea uno snapshot della VM SDDC Manager (senza memoria!).
 2. Connettiti a SDDC Manager e passa all’utente root usando `su -`.
